@@ -1,0 +1,11 @@
+# OECD TG / 出版社 PDF 受版权保护,不随 repo 公开分发
+docs/*.pdf
+
+# Python
+__pycache__/
+*.egg-info/
+.venv/
+dist/
+
+# macOS
+.DS_Store
