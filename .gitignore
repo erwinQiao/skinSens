@@ -1,5 +1,5 @@
-# OECD TG / 出版社 PDF 受版权保护,不随 repo 公开分发
-docs/*.pdf
+# docs/ 整个目录不入库(设计 spec、可行性报告等本地文档;PDF 另受版权保护)
+docs/
 
 # Python
 __pycache__/
