@@ -1,0 +1,14 @@
+Scenario,Combined score (19),ITS prediction,Confidence,DA prediction including confidence considerations
+1,0-1,NC,High,Conclusive prediction Not Classified (NC).
+1,2-5,UN GHS 1B,High,Conclusive prediction UN GHS 1B.
+1,6-7,UN GHS 1A,High,Conclusive prediction UN GHS 1A.
+2,0,NC,High,Conclusive prediction NC.
+2,1,Inconclusive,Low,Inconclusive prediction whether positive or negative.
+2,2-4,UN GHS 1B,High,Conclusive prediction UN GHS 1B.
+2,5,UN GHS 1,High,Conclusive positive prediction for hazard identification.
+2,5,UN GHS 1,Low,Inconclusive prediction for potency.
+2,6,UN GHS 1A,High,Conclusive prediction UN GHS 1A.
+3,0-1,Inconclusive,Low,Inconclusive prediction whether positive or negative.
+3,2,UN GHS 1B,High,Conclusive prediction UN GHS 1B.
+3,3-4,UN GHS 1,High,Conclusive positive prediction for hazard identification.
+3,3-4,UN GHS 1,Low,Inconclusive prediction for potency.

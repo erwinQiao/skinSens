@@ -1,0 +1,6 @@
+Dataset,Geometric mean fold-difference,Geometric mean absolute fold-difference,Median absolute fold-difference
+Full set (n=220) vs. LLNA EC3,0.86,3.46,2.56
+Set with three tests (n=188) vs. LLNA EC3,0.88,3.57,2.63
+Set with OECD MLLP (n=146) vs. LLNA EC3,0.86,3.50,2.47
+Set with PV (n=139) vs. LLNA EC3,0.96,3.42,2.42
+Set with PV (n=139) vs. PV,0.99,3.67,2.70
