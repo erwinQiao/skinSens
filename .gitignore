@@ -10,12 +10,8 @@ dist/
 # macOS
 .DS_Store
 
-# 审阅工作区:OECD 版权 PDF 快照与页渲染不入库(保留 pages/evidence/reports 等 JSON)
-tg*-review/originals/
-tg*-review/renders/
-tg*-review/review-aid/
-tg*-review/documents/*/source.pdf
-tg*-review/documents/*/previews/
+# 审阅工作区:仅本地保留(skill 已自包含部署,review 目录是审计追溯,不入库)
+tg*-review/
 
 # Claude Code 本地配置
 .claude/
