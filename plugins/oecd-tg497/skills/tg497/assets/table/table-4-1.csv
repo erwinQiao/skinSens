@@ -1,0 +1,8 @@
+Test Methods,Test Guideline,Key Event,Data Input
+DPRA,TG 442C,1,Percent depletion (Cys and Lys)
+kDPRA,TG 442C,1,log kmax (units M⁻¹ s⁻¹)
+KeratinoSens,TG 442D,2,EC1.5 and IC50 (µM)
+h-CLAT,TG 442E,3,EC200 (CD54) EC150 (CD85) CV75 (µg mL⁻¹)
+U-SENS,TG 442 E,3,EC150 and CV70 (µg mL⁻¹)
+LLNA,"TG 429, TG 442A, TG 442B",4,EC3 (percent)
+HPPT,N/A,AO*,"Dermal dose (µg cm⁻², N test subjects, N subjects sensitised)"

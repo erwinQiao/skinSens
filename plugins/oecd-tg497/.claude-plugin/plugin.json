@@ -1,0 +1,20 @@
+{
+  "name": "oecd-tg497",
+  "description": "OECD TG 497 (2 July 2026) Defined Approaches on Skin Sensitisation — reviewed guideline knowledge skill + oecd497 Q&A agent",
+  "version": "0.1.0",
+  "author": {
+    "name": "erwinQiao",
+    "url": "https://www.beautyhubcode.com"
+  },
+  "homepage": "https://github.com/erwinQiao/skinSens",
+  "repository": "https://github.com/erwinQiao/skinSens",
+  "license": "MIT",
+  "keywords": [
+    "oecd",
+    "skin-sensitisation",
+    "defined-approaches",
+    "nAM",
+    "toxicology",
+    "cosmetics"
+  ]
+}

@@ -1,0 +1,5 @@
+Test Methods,Test Guideline,Key Event,Data Input and unit
+kDPRA,TG 442C,1,log kmax (M⁻¹ s⁻¹)
+KeratinoSens,TG 442D,2,EC1.5 and IC50 (µM; µg mL⁻¹ for chemicals with no defined molecular weight)
+h-CLAT,TG 442E,3,"EC200 (CD54), EC150 (CD86) and CV75 (µg mL⁻¹)"
+Vapor pressure,,,"Vapor pressure in Pascal (Pa) as calculated e.g. with the TIMES SS model or e.g. on https://comptox.epa.gov/dashboard/, the later is in mm Hg, mmHg can be transformed to Pa by multiplying with 133"

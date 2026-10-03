@@ -1,0 +1,12 @@
+Information Source,KE1,KE1,KE1,KE1,KE3,KE3,KE3,In silico
+Type,(OECD TG 442C),(OECD TG 442C),(OECD TG 442C),(OECD TG 442C),(OECD TG 442E),(OECD TG 442E),(OECD TG 442E),
+Information Sources Permitted,"ADRA, DPRA","ADRA, DPRA","ADRA, DPRA","ADRA, DPRA","GARD®skin, h-CLAT, U-SENS™","GARD®skin, h-CLAT, U-SENS™","GARD®skin, h-CLAT, U-SENS™","Derek Nexus, OECD QSAR Toolbox"
+Score,ADRA mean NAC & NAL % depletion,ADRA NAC % depletion*,DPRA mean Cys & Lys % depletion,DPRA Cys % depletion†,GARD®Skin (µg/mL),h-CLAT MIT (µg/mL),U-SENS™ EC150 (µg/mL),Please refer to individual protocol to apply score
+3,≥46.4,≥67.4,≥42.47,≥98.24,≤13.03,≤10,≤3,
+2,"≥15.5, <46.4","≥17.5, <67.4","≥22.62, <42.47","≥23.09, <98.24",">13.03, ≤56.44",">10, ≤150",">3, ≤35",
+1,"≥4.9, <15.5","≥5.6, <17.5","≥6.38, <22.62","≥13.89, <23.09",>56.44,">150, ≤5000",">35, ≤200",Positive
+0,<4.9,<5.6,<6.38,<13.89,-,not calculated,not calculated / >200,Negative
+Potency,Total Battery Score,Total Battery Score,Total Battery Score,,,,,
+UN GHS 1A,,6-7,,,,,,
+UN GHS 1B,,2-5,,,,,,
+Not classified,,0-1,,,,,,

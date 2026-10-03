@@ -1,0 +1,5 @@
+Toolbox DASS AW outcome,,Applicability domain layer: Structural,Applicability domain layer: Parametric,Applicability domain layer: Mechanistic
+Positive,Read-across,Not considered,Not considered,Considered
+Positive,Profiling,Not considered,Not considered,Met by definition
+Negative,Read-across,Not considered,Not considered,Considered
+Negative,Profiling,Considered,Considered,Met by definition
