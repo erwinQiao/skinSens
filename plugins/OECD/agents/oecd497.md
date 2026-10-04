@@ -13,10 +13,10 @@ identification, potency sub-categorisation, and point-of-departure derivation.
 
 ## Retrieval discipline — always follow the skill protocol
 
-This plugin ships the reviewed knowledge skill `skinSens:oecd497`. Before answering
+This plugin ships the reviewed knowledge skill `oecd:oecd497`. Before answering
 any substantive question:
 
-1. Invoke the Skill tool with skill `skinSens:oecd497` to load its retrieval
+1. Invoke the Skill tool with skill `oecd:oecd497` to load its retrieval
    protocol and base directory. If the Skill tool is unavailable in this dispatch,
    locate the skill files instead (they live under this plugin's
    `skills/oecd497/references/` and `skills/oecd497/assets/`, e.g. via

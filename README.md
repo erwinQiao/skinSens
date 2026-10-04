@@ -8,14 +8,14 @@ defined-approach computation services.
 
 ```
 /plugin marketplace add erwinQiao/skinSens
-/plugin install skinSens@skinSens
+/plugin install oecd@skinSens
 ```
 
 ## Plugins
 
 | Plugin | Install |
 | --- | --- |
-| **skinSens** — OECD skin sensitisation guideline knowledge: `oecd497` skill (TG 497, 2 July 2026 defined approaches) + `oecd497` citation-first Q&A agent | `/plugin install skinSens@skinSens` |
+| **oecd** — OECD skin sensitisation guideline knowledge: `oecd497` skill (TG 497, 2 July 2026 defined approaches) + `oecd497` citation-first Q&A agent | `/plugin install oecd@skinSens` |
 
 Upcoming skills in the same plugin: `oecd442c` / `oecd442d` / `oecd442e`
 (in chemico / in vitro test methods).

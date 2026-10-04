@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "skinSens",
+      "name": "oecd",
       "source": "./plugins/OECD",
       "description": "OECD skin sensitisation guideline knowledge — oecd497 skill (TG 497, 2 July 2026: 2o3, ITS, SARA-ICE, regression-based DAs) + oecd497 citation-first Q&A agent; upcoming oecd442c/oecd442d/oecd442e skills",
       "version": "0.2.0",

@@ -1,4 +1,4 @@
-# skinSens
+# oecd
 
 OECD skin-sensitisation test-guideline knowledge as a Claude Code plugin:
 one reviewed knowledge skill per guideline, each with a dedicated Q&A agent.
@@ -28,7 +28,7 @@ Upcoming skills in this plugin: `oecd442c` (DPRA/ADRA), `oecd442d`
 ## Usage
 
 Ask any TG 497 question in a session — the oecd497 agent picks it up — or
-invoke the skill directly (`/skinSens:oecd497`).
+invoke the skill directly (`/oecd:oecd497`).
 
 > Applying a DA to your own data (running 2o3 scoring, computing a PoD) is
 > reserved for the companion skinSens computation service (in development);
