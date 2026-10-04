@@ -273,7 +273,16 @@ def extract_all(pdf_path: Path, out_dir: Path) -> dict:
             if page_num > 1:
                 for info in fitz_doc[page_index].get_image_info(xrefs=True):
                     xref = info.get("xref", 0)
-                    bbox = [round(v, 2) for v in info["bbox"]]
+                    # get_image_info returns bboxes in UNROTATED page
+                    # space, while pdfplumber reports text in rotated
+                    # space — without this transform, /Rotate 90 pages
+                    # (landscape annex tables) silently drop body text
+                    # and duplicate figure text.
+                    rect = (
+                        pymupdf.Rect(info["bbox"])
+                        * fitz_doc[page_index].rotation_matrix
+                    )
+                    bbox = [round(v, 2) for v in rect]
                     entry = {
                         "id": f"figure_p{page_num}_{len(figure_entries) + 1}",
                         "page": page_num,

@@ -62,12 +62,23 @@ def is_heading(text: str) -> bool:
 
     Original case is preserved downstream — never .capitalize(): that is how
     'BALB/c 3T3' became 'Balb/c 3t3' in the old pipeline.
+
+    Section-name matching is anchored: after the matched name only a
+    number, colon or parenthesis may follow ("Annex 2:", "INTRODUCTION").
+    A bare prefix match would promote ordinary sentences like
+    'Acceptance criteria are met when…' to headings.
     """
     if not text or len(text) > 100:
         return False
     if text.isupper() and not text.endswith(".") and len(text.split()) <= 10:
         return True
-    return text.upper().startswith(SECTION_NAMES)
+    upper = text.upper()
+    for name in SECTION_NAMES:
+        if upper.startswith(name):
+            rest = upper[len(name):].lstrip()
+            if rest == "" or rest[0].isdigit() or rest[0] in ":(":
+                return True
+    return False
 
 
 def load_manifest(manifest_path: Path) -> dict[str, dict]:
@@ -113,6 +124,7 @@ def build(md_path: Path, manifest_path: Path, out_path: Path, template_path: Pat
     content_parts: list[str] = []
     refs_parts: list[str] = []
     in_refs = False
+    refs_heading_emitted = False
     table_display = 0
     figure_display = 0
     heading_count = 0
@@ -161,12 +173,19 @@ def build(md_path: Path, manifest_path: Path, out_path: Path, template_path: Pat
 
         if text and REFS_HEADING_RE.match(text):
             in_refs = True
-            refs_parts.append("## References\n\n")
+            if not refs_heading_emitted:
+                refs_heading_emitted = True
+                refs_parts.append("## References\n\n")
             continue
 
         if level:
+            # Any subsequent real heading ends the references section:
+            # guidelines like TG 497 repeat "References" mid-document,
+            # and a one-way latch would dump all later content into the
+            # references slot.
+            in_refs = False
             heading_count += 1
-            (refs_parts if in_refs else content_parts).append(f"{level} {text}\n\n")
+            content_parts.append(f"{level} {text}\n\n")
         elif stripped:
             (refs_parts if in_refs else content_parts).append(convert_line(stripped) + "\n")
         else:
