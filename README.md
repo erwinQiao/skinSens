@@ -15,7 +15,7 @@ defined-approach computation services.
 
 | Plugin | Install |
 | --- | --- |
-| **oecd** — OECD skin sensitisation guideline knowledge: `oecd497` skill (TG 497, 2 July 2026 defined approaches) + `oecd497` citation-first Q&A agent | `/plugin install oecd@skinSens` |
+| **oecd** — OECD skin sensitisation guideline knowledge: `oecd497` skill (TG 497, 2 July 2026 defined approaches) + `oecd497` citation-first Q&A agent; `pdf2md` skill (OECD TG PDF → bilingual EN/ZH Markdown) | `/plugin install oecd@skinSens` |
 
 Upcoming skills in the same plugin: `oecd442c` / `oecd442d` / `oecd442e`
 (in chemico / in vitro test methods).

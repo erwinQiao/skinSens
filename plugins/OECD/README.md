@@ -9,6 +9,7 @@ Current release covers TG 497; 442C/D/E skills are in progress.
 | Component | Description |
 | --- | --- |
 | `skills/oecd497` | Self-contained TG 497 knowledge pack: full guideline text (`references/paper.md`), navigation index, supplementary information, extracted figures (JPEG) and tables (CSV). Human-reviewed extraction with documented limitations. |
+| `skills/pdf2md` | OECD TG PDF → bilingual English/Chinese Markdown. Deterministic extraction in reading order (text, 300-dpi table screenshots, figures) with page-anchored stable ids and a manifest contract, plus a section-by-section translation protocol with toxicology glossary. |
 | `agents/oecd497` | TG 497 specialist subagent. Main sessions auto-delegate TG 497 / skin-sensitisation DA questions to it; it retrieves from the skill and answers with section/table/figure citations. Also advises on DA selection and result interpretation, clearly separating guideline text from interpretation. |
 
 Upcoming skills in this plugin: `oecd442c` (DPRA/ADRA), `oecd442d`
