@@ -53,13 +53,17 @@ mixed-case sub-headings, demote over-promoted lines, reflow hard-wrapped
 lines into paragraphs, spot-check table screenshots against the source.
 Keep `<!-- page N -->` markers — they anchor source-page citations.
 
-### 4. Translate to Chinese
+### 4. Translate to Chinese — dispatch the oecdTranslate agent
 
-Follow `references/translation-protocol.md` (fidelity first, glossary
-first, first-occurrence bracketing, do-not-translate list, self-check).
-Read `references/toxicology-glossary.md` before starting. Build the output
-from `assets/template_zh.md`, translating section-by-section from the
-reviewed `_en.md`. 2–4 sections per response for long documents.
+Dispatch the `oecdTranslate` agent (Agent tool, subagent type
+`oecd:oecdTranslate`) with: the reviewed `_en.md` path, the output
+`_zh.md` path, this skill directory, and the metadata (title, TG number,
+publication date). The agent enforces glossary-first terminology control
+plus OECD domain conventions — assay names kept in Latin script, DA / UN
+GHS / AOP vocabulary rendered per convention — and reports a terminology
+decision table flagging any inferred renderings. It works from
+`references/translation-protocol.md` and `references/toxicology-glossary.md`.
+Only translate in-session yourself if the agent is unavailable.
 
 ### 5. Verify
 

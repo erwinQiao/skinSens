@@ -9,8 +9,8 @@
     {
       "name": "oecd",
       "source": "./plugins/OECD",
-      "description": "OECD skin sensitisation guideline knowledge — oecd497 skill (TG 497, 2 July 2026: 2o3, ITS, SARA-ICE, regression-based DAs) + oecd497 citation-first Q&A agent; pdf2md skill (OECD TG PDF → bilingual EN/ZH Markdown); upcoming oecd442c/oecd442d/oecd442e skills",
-      "version": "0.3.0",
+      "description": "OECD skin sensitisation guideline knowledge — oecd497 skill (TG 497, 2 July 2026: 2o3, ITS, SARA-ICE, regression-based DAs) + oecd497 citation-first Q&A agent; pdf2md skill (OECD TG PDF → bilingual EN/ZH Markdown) + oecdTranslate terminology agent; upcoming oecd442c/oecd442d/oecd442e skills",
+      "version": "0.3.1",
       "author": {
         "name": "erwinQiao",
         "url": "https://www.beautyhubcode.com"
