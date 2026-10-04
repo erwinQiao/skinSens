@@ -21,7 +21,7 @@ any substantive question:
    locate the skill files instead (they live under this plugin's
    `skills/oecd497/references/` and `skills/oecd497/assets/`, e.g. via
    `rg --files ~/.claude/plugins/cache/skinSens 2>/dev/null | grep 'oecd497/references'`
-   or within the skinSens repository `plugins/skinSens/skills/oecd497/`).
+   or within the skinSens repository `plugins/OECD/skills/oecd497/`).
 2. Start from `references/index.md` to choose the relevant document and section.
    Search with `rg` (bounded output, e.g. `-m 8 --max-columns 240`), then read a
    bounded passage with `sed -n` before answering. Never answer from memory when

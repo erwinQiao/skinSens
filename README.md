@@ -24,4 +24,4 @@ Upcoming skills in the same plugin: `oecd442c` / `oecd442d` / `oecd442e`
 
 Guideline-derived content is redistributed under CC BY 4.0 with attribution to
 the OECD; software scaffolding is MIT. See
-[plugins/skinSens/ATTRIBUTION.md](plugins/skinSens/ATTRIBUTION.md).
+[plugins/OECD/ATTRIBUTION.md](plugins/OECD/ATTRIBUTION.md).
