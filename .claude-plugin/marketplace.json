@@ -1,16 +1,16 @@
 {
   "name": "skinSens",
-  "description": "Skin sensitisation NAM toolchain — OECD test guideline knowledge plugins (TG 497 defined approaches, and upcoming 442C/D/E) with检索/咨询 agents",
+  "description": "Skin sensitisation NAM toolchain — OECD test guideline knowledge plugin (TG 497 defined approaches, upcoming 442C/D/E) with retrieval/Q&A agents",
   "owner": {
     "name": "erwinQiao",
     "url": "https://www.beautyhubcode.com"
   },
   "plugins": [
     {
-      "name": "oecd-tg497",
-      "source": "./plugins/oecd-tg497",
-      "description": "OECD TG 497 (2 July 2026) Defined Approaches on Skin Sensitisation — reviewed guideline knowledge skill (2o3, ITS, SARA-ICE, regression-based DAs) + oecd497 Q&A agent with section-cited answers",
-      "version": "0.1.0",
+      "name": "skinSens",
+      "source": "./plugins/skinSens",
+      "description": "OECD skin sensitisation guideline knowledge — oecd497 skill (TG 497, 2 July 2026: 2o3, ITS, SARA-ICE, regression-based DAs) + oecd497 citation-first Q&A agent; upcoming oecd442c/oecd442d/oecd442e skills",
+      "version": "0.2.0",
       "author": {
         "name": "erwinQiao",
         "url": "https://www.beautyhubcode.com"

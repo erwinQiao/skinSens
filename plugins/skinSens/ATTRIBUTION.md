@@ -2,7 +2,7 @@
 
 ## OECD Guideline No. 497 content
 
-The knowledge content of this plugin (`skills/tg497/` — `references/paper.md`,
+The knowledge content of this plugin (`skills/oecd497/` — `references/paper.md`,
 `references/supplement.md`, and the extracted figures and tables under
 `assets/`) is derived from:
 

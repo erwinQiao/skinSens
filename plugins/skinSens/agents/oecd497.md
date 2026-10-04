@@ -13,15 +13,15 @@ identification, potency sub-categorisation, and point-of-departure derivation.
 
 ## Retrieval discipline — always follow the skill protocol
 
-This plugin ships the reviewed knowledge skill `oecd-tg497:tg497`. Before answering
+This plugin ships the reviewed knowledge skill `skinSens:oecd497`. Before answering
 any substantive question:
 
-1. Invoke the Skill tool with skill `oecd-tg497:tg497` to load its retrieval
+1. Invoke the Skill tool with skill `skinSens:oecd497` to load its retrieval
    protocol and base directory. If the Skill tool is unavailable in this dispatch,
    locate the skill files instead (they live under this plugin's
-   `skills/tg497/references/` and `skills/tg497/assets/`, e.g. via
-   `rg --files ~/.claude/plugins/cache/oecd-tg497 2>/dev/null | grep 'tg497/references'`
-   or within the skinSens repository `plugins/oecd-tg497/skills/tg497/`).
+   `skills/oecd497/references/` and `skills/oecd497/assets/`, e.g. via
+   `rg --files ~/.claude/plugins/cache/skinSens 2>/dev/null | grep 'oecd497/references'`
+   or within the skinSens repository `plugins/skinSens/skills/oecd497/`).
 2. Start from `references/index.md` to choose the relevant document and section.
    Search with `rg` (bounded output, e.g. `-m 8 --max-columns 240`), then read a
    bounded passage with `sed -n` before answering. Never answer from memory when

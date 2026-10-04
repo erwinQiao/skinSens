@@ -1,5 +1,5 @@
 ---
-name: tg497
+name: oecd497
 description: "Read and answer questions about OECD Guideline No. 497: Defined Approaches on Skin Sensitisation (2 July 2026), its supplementary information, figures and tables."
 ---
 

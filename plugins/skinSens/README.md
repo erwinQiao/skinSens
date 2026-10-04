@@ -1,14 +1,18 @@
-# oecd-tg497
+# skinSens
 
-OECD TG 497 — Defined Approaches on Skin Sensitisation (adopted 2 July 2026)
-as a Claude Code plugin: a reviewed knowledge skill plus a dedicated Q&A agent.
+OECD skin-sensitisation test-guideline knowledge as a Claude Code plugin:
+one reviewed knowledge skill per guideline, each with a dedicated Q&A agent.
+Current release covers TG 497; 442C/D/E skills are in progress.
 
 ## What's inside
 
 | Component | Description |
 | --- | --- |
-| `skills/tg497` | Self-contained knowledge pack: full guideline text (`references/paper.md`), navigation index, supplementary information, extracted figures (JPEG) and tables (CSV). Human-reviewed extraction with documented limitations. |
+| `skills/oecd497` | Self-contained TG 497 knowledge pack: full guideline text (`references/paper.md`), navigation index, supplementary information, extracted figures (JPEG) and tables (CSV). Human-reviewed extraction with documented limitations. |
 | `agents/oecd497` | TG 497 specialist subagent. Main sessions auto-delegate TG 497 / skin-sensitisation DA questions to it; it retrieves from the skill and answers with section/table/figure citations. Also advises on DA selection and result interpretation, clearly separating guideline text from interpretation. |
+
+Upcoming skills in this plugin: `oecd442c` (DPRA/ADRA), `oecd442d`
+(KeratinoSens/LuSens), `oecd442e` (h-CLAT/U-SENS/IL-8 Luc).
 
 ## Coverage
 
@@ -24,7 +28,7 @@ as a Claude Code plugin: a reviewed knowledge skill plus a dedicated Q&A agent.
 ## Usage
 
 Ask any TG 497 question in a session — the oecd497 agent picks it up — or
-invoke the skill directly (`/tg497` via `oecd-tg497:tg497`).
+invoke the skill directly (`/skinSens:oecd497`).
 
 > Applying a DA to your own data (running 2o3 scoring, computing a PoD) is
 > reserved for the companion skinSens computation service (in development);
@@ -33,5 +37,5 @@ invoke the skill directly (`/tg497` via `oecd-tg497:tg497`).
 
 ## Licence
 
-Scaffolding: MIT. Guideline-derived content (`skills/tg497/`): CC BY 4.0,
+Scaffolding: MIT. Guideline-derived content (`skills/oecd497/`): CC BY 4.0,
 © OECD 2026 — see [ATTRIBUTION.md](ATTRIBUTION.md).
