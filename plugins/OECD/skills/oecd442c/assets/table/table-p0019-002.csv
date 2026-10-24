@@ -1,0 +1,5 @@
+**Mean of cysteine and lysine % depletion**,**Reactivity Class**,**DPRA Prediction**<sup>**2**</sup>
+0% ≤ mean % depletion ≤ 6.38%,No or minimal reactivity,Negative
+6.38% < mean % depletion ≤ 22.62%,Low reactivity,Positive
+22.62% < mean % depletion ≤ 42.47%,Moderate reactivity,
+42.47% < mean % depletion ≤ 100%,High reactivity,

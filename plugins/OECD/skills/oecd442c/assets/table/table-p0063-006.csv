@@ -1,0 +1,29 @@
+Proficiency substances,CASRN,"Physical
+state","_In vivo_
+prediction<sup>1</sup>","UN GHS
+Category
+LLNA","UN GHS
+Category
+human","kDPRA
+prediction<sup>2</sup>",Range of log k<sub>max</sub><sup>2</sup>
+"2,4-Dinitrochlorobenzene",97-00-7,Solid,"Sensitiser
+(extreme)",1A,1A,1A,(-0.8) – (-0.4)
+Methylisothiazolinone,2682-20-4,Solid,"Sensitiser
+(extreme)",1A,1A,1A,(-0.5) – (-0.1)
+Oxazolone,15646-46-5,Solid,"Sensitiser
+(extreme)",1A,No data,1A,(-0.3) – (0.0)
+Methyl-2-octynoate,111-12-6,Liquid,"Sensitiser
+(strong)",1A,1A,1A,(-1.6) – (-1.2)
+Isoeugenol,97-54-1,Liquid,"Sensitiser
+(moderate)",1A,1A,1A,(-1.4) - (-1.1)
+"2,3-Butanedione",431-03-8,Liquid,"Sensitiser
+(weak)",1B,No data,"non-1A
+(1B or NC)",(-3.2) – (-2.1)
+"Ethylene glycol
+dimethacrylate (EGDMA)",97-90-5,Liquid,"Sensitiser
+(weak)",1B,1B,"non-1A
+(1B or NC)",(-2.8) – (-2.1)
+4-Methoxyacetophenone,100-06-1,Solid,Non-sensitiser,No Cat.<sup>3</sup>,No Cat.<sup>3</sup>,"non-1A
+(1B or NC)",Not reactive
+Chlorobenzene,108-90-7,Liquid,Non-sensitiser,No Cat.<sup>3</sup>,No Cat.<sup>3</sup>,"non-1A
+(1B or NC)",Not reactive

@@ -1,0 +1,5 @@
+**Cysteine (Cys) % depletion**,**Reactivity class**,**DPRA prediction**<sup>**2**</sup>
+0% ≤ Cys % depletion ≤ 13.89%,No or minimal reactivity,Negative
+13.89% < Cys % depletion ≤ 23.09%,Low reactivity,Positive
+23.09% < Cys % depletion ≤ 98.24%,Moderate reactivity,
+98.24% < Cys % depletion ≤ 100%,High reactivity,

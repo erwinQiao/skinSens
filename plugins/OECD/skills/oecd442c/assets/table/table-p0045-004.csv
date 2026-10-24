@@ -1,0 +1,82 @@
+"Substance class /
+interference","Reason for potential
+underprediction or interference",Data interpretation,"Example
+substance"
+"Metals and inorganic
+compounds","Known to react with proteins via
+mechanisms other than covalent
+binding",Should not be tested,"Nickel sulphate;
+7786-81-4"
+Pro-haptens,"Test Chemicals that require
+enzymatic bioactivation to exert
+their skin sensitisation potential
+cannot be detected by the test
+method unless activation is
+caused by auto-oxidation to a
+similar degree as in vivo /in
+humans. It will however normally
+not be known whether this will be
+the case","May lead to false negatives.
+Negative results obtained with the test
+method should be interpreted in the context
+of the stated limitations and in the
+connection with other information sources
+within the framework of an IATA","Diethylenetriamine;
+111-40-0 (human
+1A, LLNA n/a)"
+Pre-haptens,"Chemicals that become
+sensitisers after abiotic
+transformation are reported to be
+in some cases correctly detected
+by the test method",,Linalool: 78-70-6
+"Test chemicals that have
+a UV absorption (OD, 281
+nm) or FL (Ex/Em,
+284/333 nm) and have
+the same retention time
+than NAC or NAL (co-
+elution)","When co-elution occurs the peak
+of the NAC or NAL cannot be
+integrated and the calculation of
+the percent NAC or NAL
+depletion is not possible.","The substances that absorb UV in this
+range of the spectrum are generally limited
+to those having conjugated double bonds,
+which significantly lowers the potential for
+co-elution. The substances that have a FL
+in this range are generally limited to
+polyaromatic or polyheterocyclic
+compounds, including naphthalene
+derivatives. If co-elution of such test
+chemicals occurs with both the NAC and
+the NAL or with the NAC only, then the
+analysis should be reported as
+“inconclusive” and alternative HPLC set up
+should be considered (see paragraph 28).
+In cases where co-elution occurs only with
+the NAL, then the NAC-only prediction
+model reported in Table 2 can be used.”",Safranal; 116-26-7
+"Complex mixtures of
+unknown composition,
+substances of unknown or
+variable composition,
+complex reaction
+products or biological
+materials","ADRA using a 4 mM chemical
+solution needs for defined molar
+ratio of test chemical and
+nucleophilic reagent, but ADRA
+using a 0.5 mg/mL solution does
+not need the defined molar ratio
+of a test chemical and can predict
+sensitisation for test chemicals,
+which are
+prepared at a weight","Since plant extract contains various
+polyphenols, which react with NAC, it may
+be judged as a sensitiser when a solution
+containing a high concentration of the plant
+extract is evaluated using ADRA.
+Therefore, these results should be
+considered with reference to results
+obtained using alternative methods for
+other key events and _in vivo_ results of",n/a

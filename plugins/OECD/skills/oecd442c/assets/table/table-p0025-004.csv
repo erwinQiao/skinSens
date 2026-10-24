@@ -1,0 +1,77 @@
+"Substance class /
+interference","Reason for potential
+underprediction or interference",Data interpretation,Example substance
+"Metals and inorganic
+compounds","Known to react with proteins via
+mechanisms other than covalent
+binding",Should not be tested,"Nickel sulphate;
+7786-81-4"
+Pro-haptens,"Test Chemicals that require
+enzymatic bioactivation to exert
+their skin sensitisation potential;
+cannot be detected by the test
+method unless activation is caused
+by auto-oxidation to a similar
+degree as in vivo /in humans. It will
+however normally not be known
+whether this will be the case","May lead to false negatives.
+Negative results obtained with the test
+method should be interpreted in the
+context of the stated limitations and in
+the connection with other information
+sources within the framework of an
+IATA or a DA","Diethylenetriamine;
+111-40-0 (1A chez
+l’homme, LLNA n/a)"
+Pre-haptens,"Chemicals that become sensitisers
+after abiotic transformation are
+reported to be in most cases
+correctly detected by the test
+method",,Linalool: 78-70-6
+"Test chemicals
+absorbing significantly
+at 220 nm and having
+the same retention time
+of the peptides (co-
+elution)","When co-elution occurs the peak of
+the peptide cannot be integrated
+and the calculation of the percent
+peptide depletion is not possible","If co-elution of such test chemicals
+occurs with both the cysteine and the
+lysine peptides, or with the cysteine
+peptide only, then the analysis should
+be reported as “inconclusive” and
+alternative HPLC set up should be
+considered (see paragraph 22). In
+cases where co-elution occurs only with
+the lysine peptide, then the cysteine
+1:10 prediction model reported in Table
+2 can be used.","Salicylic acid: 69-
+72-7"
+"Complex mixtures of
+unknown composition,
+substances of unknown
+or variable composition,
+complex reaction
+products or biological
+materials","The molecular weight approach
+cannot apply - See paragraph 12
+for conditions of aplication of the
+gravimetric approach",See paragraph 12,"UVCBs, chemical
+emissions, products
+or formulations with
+variable or not fully
+known composition"
+"Test chemicals which
+cannot be dissolved in
+an appropriate solvent
+at a final concentration
+of 100 mM","Not sure if sufficient exposure can
+be achieved","Test chemicals that are not soluble at
+this concentration may still be tested at
+lower soluble concentrations. In such a
+case, a positive result could be used to
+support the identification of the test
+chemical as a skin sensitiser but no firm
+conclusion on the lack of reactivity
+should be drawn from a negative result.",n/a

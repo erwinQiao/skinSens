@@ -1,0 +1,24 @@
+**Proficiency substances**,**CASRN**,"**Physical**
+**state**","**_In vivo_**
+**prediction**<sup>**1**</sup>","**DPRA**
+**prediction**<sup>**2**</sup>","**Range**<sup>**3**</sup>**of %**
+**cysteine peptide**
+**depletion**","**Range**<sup>**3**</sup>**of %**
+**lysine peptide**
+**depletion**"
+"2,4-Dinitrochlorobenzene",97-00-7,Solid,"Sensitiser
+(extreme)",Positive,90-100,15-45
+Oxazolone,15646-46-5,Solid,"Sensitiser
+(extreme)",Positive,60-80,10-55
+Formaldehyde,50-00-0,Liquid,"Sensitiser
+(strong)",Positive,30-60,≤ 24
+Benzylideneacetone,122-57-6,Solid,"Sensitiser
+(moderate)",Positive,80-100,≤ 7
+Farnesal,19317-11-4,Liquid,"Sensitiser
+(weak)",Positive,15-55,≤ 25
+"2,3-Butanedione",431-03-8,Liquid,"Sensitiser
+(weak)",Positive,60-100,10-45
+1-Butanol,71-36-3,Liquid,Non-sensitiser,Negative,≤ 7,≤ 5.5
+6-Methylcoumarin,92-48-8,Solid,Non-sensitiser,Negative,≤ 7,≤ 5.5
+Lactic Acid,50-21-5,Liquid,Non-sensitiser,Negative,≤ 7,≤ 5.5
+4-Methoxyacetophenone,100-06-1,Solid,Non-sensitiser,Negative,≤ 7,≤ 5.5
