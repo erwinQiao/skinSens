@@ -1,0 +1,94 @@
+"Substance class /
+interference","Reason for potential
+underprediction or interference",Data interpretation,Example substance
+"Metals and inorganic
+compounds","Known to react with proteins via
+mechanisms other than
+covalent binding",Should not be tested,"Nickel sulphate;
+7786-81-4"
+"Hydroquinones,
+catechols and aromatic
+amines","Lag time of oxidation may
+reduce apparent reaction rate","Results with log kmax < - 2.0 can
+only be accepted if low reactivity
+can be confirmed after oxidation","Para-phenylenediamine;
+106-50-3; Human and
+LLNA 1A"
+Thiols or thiol-releasers,"Test chemicals with primary
+SH-groups and those
+decomposing under the
+conditions of the assay can
+react with the detection probe","Test chemical cannot be tested in
+the kDPRA with derivatisation by
+thiol reactive probes: other kinetic
+data with the test peptide e.g. by
+HPLC may need to be generated
+(not part of this guideline)","Thioglycerol;
+96-27-5; LLNA UN GHS
+category 1B; Human
+n/a"
+"Test chemicals having
+an exclusive lysine-
+reactivity as observed in
+DPRA or ADRA","kDPRA only measures
+reactivity with the cysteine
+peptide","Results with log kmax < - 2.0 for
+chemicals which specifically
+deplete NH2-groups, but not SH-
+groups in DPRA or ADRA are not
+conclusive","Some acyl-halides,
+phenol-esters or
+aldehydes,
+Dihydrocoumarin, 119-84-6; LLNA UN GHS
+category 1B; Human
+n/a, Glutaric aldehyde;
+111-30-8; Human and
+LLNA UN GHS
+category 1A"
+Pro-haptens,"Test chemicals for which there
+is evidence that they strictly
+require enzymatic bioactivation
+to exert their skin sensitizing
+potential","Strict pro-haptens may be
+underestimated. However
+chemicals which are i) strict pro-
+haptens (i.e. test chemicals not
+also acting as direct haptens or
+prehaptens, too) and ii) strong
+allergens were found to be rare","Diethylenetriamine;
+111-40-0 (human 1A,
+LLNA UN GHS
+category 1)"
+"Fluorescent chemicals
+with excitation in the
+range of the fluorescent
+probe","If fluorescence of test chemicals
+and of the mBrB-peptide adduct
+is not additive, pseudo-
+depletion is observed","Follow the considerations in the
+DB-ALM Protocol n° 217 to
+evaluate assay interference","Tetrachlorosalicylanilide;
+1154-59-; Human and
+LLNA UN GHS
+category 1A"
+"Test chemicals
+absorbing in the
+emission range of the
+probe","If test chemical quenches
+fluorescence emission of the
+mBrB-peptide adduct, pseudo-
+depletion is observed","Follow the considerations in the
+DB-ALM Protocol n° 217 to
+evaluate assay interference","Vanillin, 121-33-5;
+LLNA NC; Human n/a"
+"Mixtures of unknown
+composition,","no information on applicability
+of kDPRA is available in the",n/a,"UVCBs, chemical
+emissions, products or"
+"substances of unknown
+or variable composition,
+complex reaction
+products or biological
+materials",published literature,,"formulations with
+variable or not fully
+known composition"

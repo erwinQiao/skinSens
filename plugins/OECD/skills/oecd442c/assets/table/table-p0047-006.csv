@@ -1,0 +1,25 @@
+No.,Test chemicals,CAS No.,"Physical
+state","Molecular
+weight","_In vivo_
+Prediction<sup>1</sup>","ADRA 4 mM
+prediction<sup>2</sup>","Range of %
+NAC<sup>3</sup>
+depletion","Range of %
+NAL<sup>3</sup>
+depletion"
+1,_p_-Benzoquinone,106-51-4,Solid,108.09,"Sensitiser
+(extreme)",Positive,90-100,70-100
+2,Diphenylcyclopropenone,886-38-4,Solid,206.24,"Sensitiser
+(extreme)",Positive,50-90,≤ 10
+3,2-Methyl-2H-isothiazol-3-one,2682-20-4,Solid,115.15,"Sensitiser
+(strong)",Positive,80-100,≤10
+4,Palmitoyl Chloride,112-67-4,Liquid,274.87,"Sensitiser
+(moderate)",Positive,≤ 40,70-100
+5,Imidazolidinyl urea,39236-46-9,Solid,388.29,"Sensitiser
+(weak)",Positive,40-70,≤ 20
+6,Farnesal,19317-11-4,Liquid,220.35,"Sensitiser
+(weak)",Positive,60-100,5-40
+7,Glycerol,56-81-5,Liquid,92.09,Non-sensitiser,Negative,≤ 7,≤ 7
+8,Isopropanol,67-63-0,Liquid,60.10,Non-sensitiser,Negative,≤ 7,≤ 7
+9,Dimethyl isophthalate,1459-93-4,Solid,194.19,Non-sensitiser,Negative,≤ 7,≤ 7
+10,Propyl paraben,94-13-3,Solid,180.20,Non-sensitiser,Negative,≤ 7,≤ 7

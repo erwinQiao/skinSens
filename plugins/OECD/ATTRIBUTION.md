@@ -1,5 +1,18 @@
 # Attribution
 
+## OECD Guideline No. 442C content
+
+The knowledge content of `skills/oecd442c/` (`references/paper.md`,
+`references/supplement.md`, and the extracted figures and tables under
+`assets/`) is derived from:
+
+> OECD (2026), *Test Guideline No. 442C: In Chemico Skin Sensitisation — Assays
+> Addressing the AOP Key Event on Covalent Binding to Proteins*, OECD Guidelines
+> for the Testing of Chemicals, Section 4, OECD Publishing, Paris, corrected
+> 2 July 2026.
+
+It is redistributed under the same CC BY 4.0 terms described below.
+
 ## OECD Guideline No. 497 content
 
 The knowledge content of this plugin (`skills/oecd497/` — `references/paper.md`,

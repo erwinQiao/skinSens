@@ -1,0 +1,30 @@
+**Calibration standards and reference controls**,STD1
+,STD2
+,STD3
+,STD4
+,STD5
+,STD6
+,Dilution buffer
+,"Reference control A, rep 1"
+,"Reference control A, rep 2"
+,"Reference control A, rep 3"
+**Co-elution controls**,Co-elution control 1 for test chemical 1
+,Co-elution control 2 for test chemical 2
+**Reference controls**,"Reference control B, rep 1"
+,"Reference control B, rep 2"
+,"Reference control B, rep 3"
+**First set of replicates**,"Reference control C, rep 1"
+,"Cinnamic aldehyde, rep 1"
+,"Sample 1, rep 1"
+,"Sample 2, rep 1"
+**Second set of replicates**,"Reference control C, rep 2"
+,"Cinnamic aldehyde, rep 2"
+,"Sample 1, rep 2"
+,"Sample 2, rep 2"
+**Third set of replicates**,"Reference control C, rep 3"
+,"Cinnamic aldehyde, rep 3"
+,"Sample 1, rep 3"
+,"Sample 2, rep 3"
+**Reference controls**,"Reference control B, rep 4"
+,"Reference control B, rep 5"
+,"Reference control B, rep 6"
