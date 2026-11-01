@@ -18,3 +18,6 @@ tg*-review/
 
 # 构建暂存区
 tg*-staging/
+
+# 最终阅读包:持久交付物在 plugins/OECD/skills/,tg*-paper/ 本地副本不入库
+tg*-paper/
